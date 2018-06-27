@@ -1,0 +1,67 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+h1{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    padding-left: 500px;
+}
+.basic{
+    height: 700px;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.intro {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 180px;
+    height: 300px;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+      }
+    
+      .leftpane {
+        width: 25%;
+        height: 100%;
+        float: left;
+        background-color: gray;
+        border-collapse: collapse;
+
+    }
+    
+    .middlepane {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background-color: rgb(184, 170, 164);
+        border-collapse: collapse;
+    }
+    img{
+        margin-top: 10px;
+    }
+    
+    .rightpane {
+      width: 25%;
+      height: 100%;
+      position: relative;
+      float: right;
+      background-color: gray;
+      border-collapse: collapse;
+    }
+     h2{
+         margin-left: 20px;
+         position: relative;
+     }
